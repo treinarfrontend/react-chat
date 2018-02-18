@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import classes from './App.css'
+import './App.css'
 
 import Contacts from '../Contacts/Contacts'
 
@@ -7,7 +7,7 @@ class App extends Component {
 
     render () {
         return (
-            <div className={classes.wrapper}>
+            <div className="wrapper">
                 <Contacts />
             </div>
         )
