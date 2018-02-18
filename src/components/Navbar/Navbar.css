@@ -7,7 +7,7 @@
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.1);
     padding-left: 400px;
     padding-right: 1.25rem;
-    position: relative;
+    position: fixed;
 }
 
 .navbar .navbar__item {
