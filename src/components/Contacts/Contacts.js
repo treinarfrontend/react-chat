@@ -1,9 +1,13 @@
 import React from 'react'
 import './Contacts.css'
 
+import Contact from './Contact/Contact'
+
 const Contacts = props => (
-    <div className="container">
-        asas
+    <div className="contacts">
+        <Contact />
+        <Contact />
+        <Contact />
     </div>
 )
 
