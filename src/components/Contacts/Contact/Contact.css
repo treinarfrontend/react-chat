@@ -1,0 +1,33 @@
+.contact {
+    margin-top: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.contact .avatar {
+    margin-right: 1.25rem;
+}
+
+.contact .avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 3px;
+    border: 1px solid #bdc3c7;
+    background-color: #ffffff;
+}
+
+.contact:hover .avatar img {
+    box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.2);
+    border-color: #34495e;
+}
+
+.contact .details .name {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.contact .details .last-message {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.5);
+}
