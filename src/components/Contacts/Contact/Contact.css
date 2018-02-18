@@ -1,44 +1,44 @@
 .contact {
-    margin-top: 1rem;
     display: flex;
-    cursor: pointer;
-}
-
-.contacts .contact {
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.contacts .contact:last-child {
+.contact:last-child {
     margin-bottom: 0;
     border-bottom: 0;
 }
 
-.contact .avatar {
-    margin-right: 1.25rem;
+.contact .contact__avatar,
+.contact .contact__details {
+    cursor: pointer;
 }
 
-.contact .avatar img {
-    width: 80px;
-    height: 80px;
+.contact .contact__avatar img {
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
     padding: 3px;
     border: 1px solid #bdc3c7;
     background-color: #ffffff;
 }
 
-.contact:hover .avatar img {
+.contact:hover .contact__avatar img {
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.2);
     border-color: #34495e;
 }
 
-.contact .details .name {
-    font-size: 1.25rem;
+.contact .contact__details {
+    padding-left: 1.25rem;
+}
+
+.contact .contact__details .contact__details--name {
+    font-size: 1.15rem;
     font-weight: 500;
 }
 
-.contact .details .last-message {
+.contact .contact__details .contact__details--message {
     font-size: 0.85rem;
     color: rgba(0, 0, 0, 0.5);
 }

@@ -1,13 +1,10 @@
 .contacts {
-    width: 430px;
-    height: 90vh;
-    overflow: hidden;
+    width: 380px;
+    height: 100vh;
+    padding: 1.25rem;
     background-color: #ffffff;
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.2);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 1rem 1.5rem;
-    position: absolute;
-    bottom: 0;
-    left: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
 }

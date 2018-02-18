@@ -6,14 +6,16 @@
     padding: 0;
 }
 
+img,
+video {
+    width: 100%;
+    height: auto;
+}
+
 body {
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     color: #414141;
-    background-color: #000;
-    background-image: url('http://jllsly.com/wallpapers/healthy-food-wallpaper-1080p-Is-Cool-Wallpapers.png');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+    background-color: #f2f3f8;
     margin: 0;
 }
