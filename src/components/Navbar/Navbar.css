@@ -1,7 +1,54 @@
 .navbar {
+    width: 100vw;
     height: 4.35rem;
+    display: flex;
+    justify-content: flex-end;
     background-color: #ffffff;
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.1);
     padding-left: 400px;
+    padding-right: 1.25rem;
+    position: relative;
+}
+
+.navbar .navbar__item {
+    margin-right: 2.5rem;
+}
+
+.navbar .navbar__item:last-child {
+    margin-right: inherit;
+}
+
+.navbar .profile {
+    height: 100%;
     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar .profile .profile__name {
+    padding-right: 1rem;
+}
+
+.navbar .profile .profile__name .icon {
+    padding-left: 0.5rem;
+}
+
+.navbar .profile .profile__avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .profile .profile__avatar img {
+    border-radius: 100%;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu .menu__item {
+    color: #414141;
+    text-decoration: none;
+    margin-right: 2rem;
 }
