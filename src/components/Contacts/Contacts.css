@@ -1,6 +1,6 @@
 .contacts {
-    width: 460px;
-    height: 70vh;
+    width: 430px;
+    height: 90vh;
     overflow: hidden;
     background-color: #ffffff;
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.2);
@@ -9,16 +9,5 @@
     padding: 1rem 1.5rem;
     position: absolute;
     bottom: 0;
-    left: 6rem;
-}
-
-.contacts .contact {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.contacts .contact:last-child {
-    margin-bottom: 0;
-    border-bottom: 0;
+    left: 4rem;
 }

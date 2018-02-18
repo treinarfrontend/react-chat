@@ -4,6 +4,17 @@
     cursor: pointer;
 }
 
+.contacts .contact {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contacts .contact:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
 .contact .avatar {
     margin-right: 1.25rem;
 }
