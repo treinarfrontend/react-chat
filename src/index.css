@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
+    color: #414141;
     background-color: #000;
     background-image: url('http://jllsly.com/wallpapers/healthy-food-wallpaper-1080p-Is-Cool-Wallpapers.png');
     background-size: cover;
