@@ -1,3 +1,4 @@
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
 
 * {
@@ -18,4 +19,8 @@ body {
     color: #414141;
     background-color: #f2f3f8;
     margin: 0;
+}
+
+.icon.is-medium {
+    font-size: 1.75rem;
 }

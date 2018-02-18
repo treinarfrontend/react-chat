@@ -2,7 +2,7 @@
     display: flex;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .contact:last-child {
@@ -12,6 +12,7 @@
 
 .contact .contact__avatar,
 .contact .contact__details {
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -20,13 +21,12 @@
     height: 75px;
     border-radius: 100%;
     padding: 3px;
-    border: 1px solid #bdc3c7;
-    background-color: #ffffff;
+    border: 2px solid #bdc3c7;
 }
 
 .contact:hover .contact__avatar img {
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.2);
-    border-color: #34495e;
+    border-color: #ffffff;
 }
 
 .contact .contact__details {
@@ -40,5 +40,5 @@
 
 .contact .contact__details .contact__details--message {
     font-size: 0.85rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
