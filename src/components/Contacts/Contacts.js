@@ -9,6 +9,9 @@ const Contacts = props => (
         <Contact />
         <Contact />
         <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
     </div>
 )
 
